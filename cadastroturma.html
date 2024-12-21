@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TODO supply a title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Cadastro de Turma</h1>
+<form method="post" action="gravarturma.php">
+<label>Turma</label>
+<input type="text" name="txtTurma">
+<br>
+<label>Período</label>
+<select name="txtPeriodo">
+<option value="Manha">Manhã</option>
+<option value="Tarde">Tarde</option>
+<option value="Noite">Noite</option>
+<option value="Integral">Integral </option>
+</select>
+<input type="submit" value="GRAVAR">
+</form>
+<hr><br><br>
+<form method="post" action="consultarturma.php">
+<label>Consultar</label>
+<input type="text" name="txtConsulta">
+<input type="submit" value="Consultar">
+</form>
